@@ -1,0 +1,5 @@
+module RuboCop
+  module Custom
+    VERSION = '0.0.1'
+  end
+end
