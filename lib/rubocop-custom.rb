@@ -1,5 +1,5 @@
 require 'rubocop'
 require 'rubocop/custom/version'
-require 'rubocop/custom/railtie'
+require 'rubocop/custom/inject'
 
 Rubocop::Custom.inject!
