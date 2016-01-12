@@ -1,7 +1,8 @@
 module Rubocop
   module Custom
     def self.inject!
-      Dir.glob(File.join(Dir.pwd, 'spec', 'cops', '*.rb')).each do |file|
+      path = Dir.pwd.split('spec')
+      Dir.glob(File.join(path[0], 'spec', 'cops', '*.rb')).each do |file|
         require file
       end
     end
