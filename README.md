@@ -26,4 +26,4 @@ For inspiration, check out [RuboCop's cops](https://github.com/bbatsov/rubocop/t
 
 ## Acknowledgments
 
-This is entirely derivative of [rubocop-rspec](https://github.com/nevir/rubocop-rspec).
+This is based heavily on [rubocop-rspec](https://github.com/nevir/rubocop-rspec).
