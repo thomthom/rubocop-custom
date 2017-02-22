@@ -4,7 +4,7 @@ module Rubocop
       root = Rubocop::Custom.project_root
       return if root.nil?
       ['spec/cops', 'cops', 'app/cops'].each do |subpath|
-        Dir.glob(File.join(root, subpath, '*.rb')).each do |file|
+        Dir.glob(File.join(root, subpath, '**/*.rb')).each do |file|
           require file
         end
       end
